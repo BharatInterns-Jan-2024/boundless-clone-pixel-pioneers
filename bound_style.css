@@ -1,6 +1,8 @@
 body{
     margin: 0px;
     text-align: center;
+    background-image: linear-gradient(rgb(11, 2, 37), rgb(47, 6, 134));
+    color: white;
 }
 h1{
     margin-top: 10%;
