@@ -11,14 +11,31 @@
             a{
                 color: aliceblue;   
             }
+
             a:hover{
                 color: rgb(100, 98, 224);
+            }
+
+            .fullScreen { 
+                width: 100%;height: 100%; 
+                position: absolute;
+                pointer-events: none;
+            }
+
+            #canvas2d
+            {
+                width: fit-content;
+                height: 100vh;
             }
         </style>
     </head>
     <body>
+        <div class="fullScreen" id="fullScreen">
+            <canvas id="canvas2d"></canvas>
+        </div>
         <h1>Find links to <a href="https://boundless.so/">boundless.so</a> web pages below!</h1>
         <p><a href="https://bharatinterns-jan-2024.github.io/boundless-clone-pixel-pioneers/bound.html">boundless</a></p>
         <p><a href="https://bharatinterns-jan-2024.github.io/boundless-clone-pixel-pioneers/fortune.html">fortune</a></p>
     </body>
+    <script src="stars.js"></script>
 </html>
